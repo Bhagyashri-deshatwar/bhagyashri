@@ -29,7 +29,7 @@ class MyEchoAction(Action):
         if flag==1:
 		MY_ADDRESS = 'stackstorm.alert@gmail.com'
 		TO='bhagyashridesh09@gmail.com'
-		PASSWORD = 'ganpatibappa'
+		PASSWORD = ''
 		s = smtplib.SMTP(host='smtp.gmail.com', port=587)
 		s.starttls()
 		s.login(MY_ADDRESS, PASSWORD)
