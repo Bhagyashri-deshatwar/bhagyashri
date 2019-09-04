@@ -1,4 +1,4 @@
-import os
+oimport os
 from st2common.runners.base_action import Action
 from smtplib import SMTP
 from email.header import Header
